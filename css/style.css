@@ -5,17 +5,18 @@ body{
 	font-size: ;
 
 	/*text-transform: capitalize;/*Capitalize all the text in the body*/
-	text-transform: uppercase;/*Uppercase all the text in the body*/
+	/*text-transform: uppercase;/*Uppercase all the text in the body*/
 
 	/*text-align: center;*/
+	font-size: 1.15em;
 	text-align: justify;/* Set all of the lines to the same length*/
 
-}
 }
 
 #title {
 
-	color: rgb(14, 18, 237);
+	color: blue;
+	font-weight: 400;
 }
 
 .subtitle {
@@ -28,17 +29,18 @@ body{
 	width: 70vw;
 	background: radial-gradient(circle,red 20%, blue 40%, green 55%)
 }
-
 .link{
 
 	/*text-decoration: none;/* removes de under line*/
 	text-decoration: underline:/* adds underline or normal for link*/;
 	/*text-decoration: line-through; /* marks a line through*/
 	/*text-decoration: overline; /* puts a line on top*/
-
-
 }
+.italics {
 
+	/*font-style: italic;*/
+	font-style: oblique; 
+}
 
 
 

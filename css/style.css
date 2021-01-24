@@ -1,7 +1,7 @@
 /*COLOR SAMPLES*/
 
 body{
-	background: rgba(204,229,255, .4);
+	background: linear-gradient(to bottom, rgba(204,229,255),rgba(204,229,255, .4));
 
 }
 
@@ -19,8 +19,14 @@ body{
 	height: 400px;
 	width: 70%;
 
-	background: linear-gradient(to right, rgb(94,255,126), rgba(94,255,126,0));
-	background-size: cover;/* will cover the whole are by streaching */
+	/* background: linear-gradient(215deg, rgb(94,255,126), rgba(94,255,126,0));/* angle gradient */
+	/* background-size: cover;/* will cover the whole are by streaching */
+	/*background: radial-gradient(red, blue, green);*/
+	/* background: radial-gradient(red 20%, blue 40%, green 55%)*/
+	background: radial-gradient(circle,red 20%, blue 40%, green 55%)
+
+
+
 	
 	
 }

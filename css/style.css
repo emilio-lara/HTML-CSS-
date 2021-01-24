@@ -19,11 +19,9 @@ body{
 	height: 400px;
 	width: 70%;
 
-	background : url("../img/img-2.jpg");
-	/*background-repeat: no-repeat;  will covert the whole area without repeating byt lose quality*/
+	background: linear-gradient(to right, rgb(94,255,126), rgba(94,255,126,0));
 	background-size: cover;/* will cover the whole are by streaching */
-	/* background-size: contain; will streach as much so it will not lose quality, but it may repeat */
-	background-color: steelblue;
+	
 	
 }
 

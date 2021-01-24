@@ -1,10 +1,97 @@
-.title {
+/*COLOR SAMPLES*/
+
+body{
+	background: rgb(204,229,255);
+
+}
+
+#title {
+
+	color: rgb(14, 18, 237);
+}
+
+.subtitle {
+
+	color: rgb(44, 123, 201);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ///SELECTORS SAMPLES
+h2:hover{
+
 	color: red;
 }
-.subtitle{
+
+h2[class=subtitle]{
+
+	color: blue;
+}
+#services{
+
+	color: green;
+}
+
+li:only-child{
+
+	color:purple;
+}
+
+td:only-child{
+
+	color: purple;
+}
+
+#google-link:link{
+
+	color: blue;
+}
+#google-link:visited{
+
+	color:red;
+}
+
+h2 + a {
+
+	color:red;
+}
+
+textarea ~ button{
+
+	color: purple;
+}
+
+ul > li {
+
 	color: blue;
 }
 
-#contact-us{
+ul li {
 	color: green;
 }
+^ will apply style  all start with "../img/"  
+ $ will apply style when ends with "../img/"  
+the start * will select anywhere 
+img[src*="../img/"]{
+	border: 10px solid black;
+}
+
+h2[ class~= article-subtitle]{
+
+	background: green;
+}
+h2[ class|= article-subtitle]{
+
+	background: green;
+}
+
+*/

@@ -10,18 +10,24 @@ body{
 	/*text-align: center;*/
 	font-size: 1.15em;
 	text-align: justify;/* Set all of the lines to the same length*/
+	/*font-family:  sans-serif;/* better readable style*/ 
+	/*font-family:  "serif;*/
+
+	font-family:"Lato"sans-serif;
 
 }
 
 #title {
 
 	color: blue;
-	font-weight: 400;
+	font-family: 'Roboto Condensed', sans-serif; 
+
 }
 
 .subtitle {
 
 	color: rgb(44, 123, 201);
+	font-family: 'Source Sans Pro', sans-serif;
 }
 #service-image {
 

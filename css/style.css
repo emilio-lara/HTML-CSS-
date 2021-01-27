@@ -85,7 +85,8 @@ body{
 	display: flex;/* the default is row.*/
 	/*flex-direction: column;*/
 	/*flex-direction: column-reverse;/* set column in reverse*/
-	flex-direction: row-reverse;
+	/*flex-direction: row-reverse;*/
+	flex-wrap: wrap;
 }
 
 .container-item {

@@ -80,13 +80,23 @@ body{
 	/*display: inline;*/
 }
 .container{
-	background-color: rgb(250,250,250,);
+	background-color: rgb(250,250,250);
 	margin: 10px;
-	display: flex;/* the default is row.*/
+	height: 300px;
+	display: flex;/* the default is row and no wrap.*/
 	/*flex-direction: column;*/
 	/*flex-direction: column-reverse;/* set column in reverse*/
 	/*flex-direction: row-reverse;*/
 	flex-wrap: wrap;
+	/*justify-content: center;/* the default value is left*/
+	/*justify-content: flex-end;/**/
+	/*justify-content: space-between;*/
+	justify-content: space-around;
+	/*align-items: center;*/
+	align-items: flex-start;/* set item at the top*/
+	align-items: flex-end;/* set items at the bottom*/
+	align-items: stretch;/* default value*/
+	align-items: center; 
 }
 
 .container-item {
